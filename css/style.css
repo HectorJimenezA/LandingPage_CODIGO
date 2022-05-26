@@ -1,0 +1,31 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+	
+	background: rgb(16,82,83);
+background: linear-gradient(0deg, rgba(16,82,83,0.9444152661064426) 0%, rgba(9,45,93,0.5970763305322129) 100%),url("../img/fondo.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    color:black;
+}
+.logo{
+    height: 120px;
+    margin-top: 20px;
+}
+.text-description{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.form-control{
+    background: transparent !important;
+    color:black !important;
+}
+a .fab{
+    color:black;
+    font-size: 30px;
+    margin: 0 10px;
+}
